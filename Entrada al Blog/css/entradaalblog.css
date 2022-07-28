@@ -1,0 +1,110 @@
+* {
+padding: 0;
+margin: 0;    
+box-sizing:border-box;
+font-family:"poppins",sans-serif;
+}
+
+#carousel .carousel-inner img{
+
+object-fit: cover;
+width: 100vw;   
+margin:0px ;
+}
+#carousel{
+position: relative;
+}
+#carousel .overlay{
+position: absolute;
+top: 0%;
+bottom: 0%;
+right: 0%;
+left: 0%;
+background-color: rgba(0, 0, 0, 0.5);
+color: seashell;
+z-index: 1;
+
+}
+#carousel .overlay .container{
+height: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 86%;
+    margin: 0px;
+}
+#lugar-fecha{
+    background-color:#e9f5f9;
+}
+.lugar-fecha{
+    background-color:#e9f5f9;
+    background: url("../asses/imagen/Playstation\ Abstract\ [2160x3840].png")no-repeat center center;
+    background-size: cover;
+}
+#sugerencias{
+    background-color:#e9f5f9;
+}
+#comentarios{
+    background-color:#e9f5f9;
+}
+.fondo{
+color: #e9f5f9; 
+}
+ /* header */
+
+ header{
+    background-color: #f2f2f2;
+    text-align: center;
+    }
+      nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff !important;
+    margin: 0 30px;
+    padding: 5px 15px;
+    }
+    nav a:hover {
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    border-radius: 10px;
+    }
+    
+
+ /* FOOTER */
+footer .container-fluid {
+    background: linear-gradient(to right, #014d8b, #5661ff) !important;
+    }
+    
+    .box h2{
+      color: #fff;
+      font-size: 20px;
+    }
+    .box p{
+      color: #efefef;
+    }
+    
+    .red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: #0d2033;
+      text-align: center;
+      transition: all 300ms ease;
+      border-radius: 50%;
+    }
+    
+    .red-social a:hover{
+      color: #0d2033;
+      background-color: white;
+    }
+
+    /* modal */
+
+.close {
+  background: none;
+  border: none;
+  }

@@ -1,0 +1,3171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../Login/Imagenes/Logo.png">
+    <link rel="stylesheet" href="../GaleriaESPORTS2.0/css/galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Galeria e-Sports</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header id="header" class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../Login/Imagenes/Logo.png" alt="logo" width="50"
+          /> Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../Login/login.html">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalCenter"
+                  >Suscribirse</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contacto/contacto.html">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Acerca de nosotros/AboutUs.html">Más sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galeria.html">Galería</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- FIN NavBar -->
+    <section id="galeriaImagenes" class="container-fluid">
+      <div class="text-center pt-5 pb-4">
+        <h1
+          class="tituloGaleria text-primary"
+          style="font-family: 'Poppins', sans-serif"
+        >
+          Juegos e-Sports
+        </h1>
+        <h3
+          class="cuerpoGaleria text-dark"
+          style="font-family: 'Poppins', sans-serif"
+        >
+          A continuación, te presentamos la siguiente lista con los eSports que
+          han logrado reconocimiento y popularidad, cabe señalar que no
+          necesariamente se encuentran en orden.
+        </h3>
+      </div>
+      <div class="row">
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/001LeagueOfLeguens.jpg"
+            alt="img1"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            League of Legends
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria1"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/mDYqT0_9VR4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/002Counter-Strike.jpg"
+            alt="img2"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Counter-Strike: Global Offensive
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria2"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/edYCtaNueQY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/003Fortnite.jpg"
+            alt="img3"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Fortnite
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria3"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/LqK2woAKDUw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/004Dota 2.jpg"
+            alt="img4"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Dota 2
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria4"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria4"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/-cSFPIwMEq4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/005Clash Royale.jpg"
+            alt="img5"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Clash Royale
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria5"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria5"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/Rfy1JJKSoHk"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/006Rocket League.jpg"
+            alt="img6"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Rocket League
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria6"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria6"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/SgSX3gOrj60"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/007Valorant.jpg"
+            alt="img7"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Valorant
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria7"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria7"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/tsDAfH_HY-s"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/008Hearthstone.jpg"
+            alt="img8"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Hearthstone: Heroes of Warcraft
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria8"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria8"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/QdXl3QtutQI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/009PUB.jpg"
+            alt="img9"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Playerunknowns Battlegrounds
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria9"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria9"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/GZHzcn1l3n8"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/010Overwatch.jpg"
+            alt="img10"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Overwatch 2
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria10"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria10"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/wB8BTbExm8g"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/011TCRS.jpg"
+            alt="img11"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Tom Clancy's Rainbow Six: Siege
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria11"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria11"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/1-utBXsiOG0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/012FIFA 20.jpg"
+            alt="img12"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            FIFA 20
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria12"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria12"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/rrSpkJhZSuU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/013Call of Duty.jpg"
+            alt="img13"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Call of Duty: Modern Warfare
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria13"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria13"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/r72GP1PIZa0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/014StarCraft II.jpg"
+            alt="img14"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            StarCraft II: Wings of Liberty
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria14"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria14"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/VSGmPpidDvo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/015Wild Rift.jpg"
+            alt="img15"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            League of Legends: Wild Rift
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria15"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria15"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/TFzkbos0oeo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/016Gran Turismo Sport.jpg"
+            alt="img16"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Gran Turismo Sport
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria16"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria16"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/moDdHXpxWrw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/017MTGA.jpg"
+            alt="img17"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Magic: The Gathering Arena
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria17"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria17"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/1nNuG0wx0fU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/018Warcraft.jpg"
+            alt="img18"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Warcraft III: Reforged
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria18"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria18"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/IzX4NumAKoE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/019World of Warcraft.jpg"
+            alt="img19"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            World of Warcraft
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria19"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria19"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/3ZtedjN1JXY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/020Garena Free Fire.jpg"
+            alt="img20"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Garena Free Fire
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria20"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria20"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/ThYJIOuBw_s"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/021Brawl Stars.jpg"
+            alt="img21"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Brawl Stars
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria21"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria21"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/CaryjOdYFa0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/022Halo Infinite.jpg"
+            alt="img22"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Halo Infinite
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria22"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria22"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/PyMlV5_HRWk"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/023Roller Champions.jpg"
+            alt="img23"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Roller Champions
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria23"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria23"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/eCGgrA0ov9k"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/024Arena of Valor.jpg"
+            alt="img24"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Arena of Valor
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria24"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria24"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/mDYqT0_9VR4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/025Apex Legends.jpg"
+            alt="img25"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Apex Legends
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria25"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria25"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/cheYIVEtVQ4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/026FIFA 22.jpg"
+            alt="img26"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            FIFA 22
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria26"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria26"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/SYsi5QuOJNE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/027Super Smash Bros. Ultimate.jpg"
+            alt="img27"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Super Smash Bros. Ultimate
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria27"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria27"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/WShCN-AYHqA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/028StarCraft.jpg"
+            alt="img28"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            StarCraft 2
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria28"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria28"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/ElW94eCMZOA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/029Age of Empires IV.jpg"
+            alt="img29"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Age of Empires IV
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria29"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria29"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/TTaCrP_U4ao"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/030FIFA 18.jpg"
+            alt="img30"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            FIFA 18
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria30"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria30"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/0ETKAYRzvjs"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/031FIFA 21.jpg"
+            alt="img31"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            FIFA 21
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria31"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria31"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/tuLAn9adQpI"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/032Warzone.jpg"
+            alt="img32"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Call of Duty: Warzone
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria32"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria32"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/0E44DClsX5Q"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/033eFootball 2022.jpg"
+            alt="img33"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            eFootball 2022
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria33"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria33"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100$"
+                    height="315"
+                    src="https://www.youtube.com/embed/w-PUJPYJrxo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/034Tekken 7.jpg"
+            alt="img34"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Tekken 7
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria34"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria34"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/1V-_q3SKh5w"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/035quake.jpg"
+            alt="img35"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Quake Champion
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria35"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria35"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/sa-6fQyNkZo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgdeGaleria col-lg-3 col-md-4 col-sm-12">
+          <img
+            class="rounded"
+            width="100%"
+            height="85%"
+            src="./Images/036StreetFighter6.jpg"
+            alt="img36"
+          />
+          <h5
+            class="imagen_titulo text-center text-dark"
+            style="font-family: 'Poppins', sans-serif"
+          >
+            Street Fighter 6
+          </h5>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-outline-info btn-sm d-grid gap-2 col-9 mx-auto"
+            style="font-family: 'Poppins', sans-serif"
+            data-bs-toggle="modal"
+            data-bs-target="#miModalGaleria36"
+          >
+            Ver Trailer / Descargar
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="miModalGaleria36"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h4
+                    class="modal-title text-light"
+                    style="font-family: 'Poppins', sans-serif"
+                    id="exampleModalLabel"
+                  >
+                    Trailer
+                  </h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/GZud-p0QRvA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-success"
+                    onclick="location.href='../Error404eSports2.0/error404.html'"
+                    data-bs-dismiss="modal"
+                  >
+                    Download
+                  </button>
+
+                  <button
+                    type="button"
+                    class="btn btn-dark bg-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- inicio footer -->
+
+<footer>
+  <div class="container-fluid">
+    <div class="row p-5 text-center text-white">
+      <div class="p-3 col-xs-12 col-md-6 col-lg-4">
+        <p class="h3"><img class="img-responsive" src="../Login/Imagenes/Logo.png" width="50"> Picateclas</p>
+      </div>
+      <div class="p-3 col-xs-12 col-md-6 col-lg-4">
+        <h3>SEGUINOS</h3>
+              <div class="red-social">
+                <a href="../Error404eSports2.0/error404.html"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="../Error404eSports2.0/error404.html"><i class="fa-brands fa-instagram"></i></a>
+                <a href="../Error404eSports2.0/error404.html"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      </div>
+      <div class="p-3 col-xs-12 col-md-6 col-lg-4">
+        <p class="h5"><a class="text-white" href="../contacto/contacto.html">Contacto</a></p>
+          <p class="h5"><a class="text-white" href="../Error404eSports2.0/error404.html">Terminos y condiciones</a></p>
+          <p class="h5"><a class="text-white" href="../Acerca de nosotros/AboutUs.html">Conócenos</a></p>
+          <p class="h5"><a class="text-white" href="../Entrada al Blog/Entradaalblog.html">Ver entrada y promociones</a></p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+  <!-- fin footer -->
+  <!-- INICIO MODAL -->
+  <div
+  class="modal fade show"
+  id="exampleModalCenter"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-modal="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">
+          ¿Quieres suscribirte?
+        </h2>
+        <button
+          type="button"
+          class="close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">Cerrar</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            maxlength="30"
+            class="form-control"
+            placeholder="Ingresa tu usuario de Gmail"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2"
+              >@gmail.com</span
+            >
+          </div>
+        </div>
+        <div class="alert alert-info text-center fs-4" role="alert">
+          Recibirás correos sobre este blog.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-dismiss="modal"
+        >
+          Cancelar
+        </button>
+        <button type="button" class="btn btn-info" onclick="location.href='../Error404eSports2.0/error404.html'">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FIN MODAL -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
